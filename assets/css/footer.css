@@ -1,0 +1,152 @@
+#footer {
+    color: var(--footer-color);
+    background-color: var(--footer-background);
+    min-height: 100vh;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+}
+
+.footer__subtitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.form-wrapper {
+    width: 450px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form input {
+    color: var(--main-color);
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--main-color);
+    font-size: 20px;
+    padding-left: 18px;
+}
+
+.form input::placeholder {
+    color: var(--main-color);
+    padding-left: 18px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#name,
+#phone,
+#email {
+    padding: 16px 18px;
+}
+
+#email {
+    margin-bottom: 72px;
+}
+
+.form__btn {
+    border: none;
+    max-height: 44px;
+    width: 20px;
+    margin: auto;
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.footer__info {
+    margin-top: 25vh;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.socials {
+    display: flex;
+    gap: 17px;
+}
+
+.contacts__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 37px;
+    text-align: center;
+}
+
+.socials a svg path,
+.socials a svg {
+    transition: 0.3s;
+}
+
+.socials a:hover svg {
+    transform: translateY(-5px);
+}
+
+#twitter:hover path {
+    fill: #00b8ec;
+}
+
+#instagram:hover path {
+    fill: #ffa44b;
+}
+
+#facebook:hover path {
+    fill: #0866ff;
+}
+
+#youtube:hover path {
+    fill: #ff0000;
+}
+
+.contacts__link {
+    transition: 0.3s;
+}
+
+.contacts__link:hover {
+    color: #bcc2cc;
+}
+
+@media (max-width: 1226px) {
+    .footer__info {
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+    }
+}
+
+@media (max-width: 1186px) {
+    .footer__content {
+        margin-top: 5vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__info {
+        margin-top: 10vh;
+    }
+
+    .form {
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-wrapper {
+        width: 90vw;
+    }
+}

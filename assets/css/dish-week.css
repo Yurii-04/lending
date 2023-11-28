@@ -1,0 +1,6 @@
+#dish-week {
+    background-image: url(../img/dish-week__bckg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: 40% 30%;
+}

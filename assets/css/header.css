@@ -1,0 +1,55 @@
+#header {
+    background-image: url(../img/header-bckg.jpg);
+    background-size: cover;
+    background-position: 80% 30%;
+    min-height: 100vh;
+}
+
+.header-stroke {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 31px;
+}
+
+.nav__list {
+    display: flex;
+    gap: 22px;
+    height: 42px;
+    align-items: flex-end;
+    
+}
+
+.header-stroke__icons {
+    display: flex;
+    gap: 14px;
+    height: 42px;
+    align-items: flex-end;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 200px);
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.header__subtitle {
+    font-style: italic;
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+
+.header__text {
+    font-size: 20px;
+    max-width: 320px;
+    margin-bottom: 40px;
+}
+
+.header__btn {
+    color: var(--secondary-color);
+    font-weight: 700;
+}
