@@ -55,6 +55,7 @@
 
 .form__btn {
     margin: auto;
+    color: var(--secondary-color);
 }
 
 .footer__info {
